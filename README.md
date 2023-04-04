@@ -1,31 +1,50 @@
-# RepositorioTemplate
 
-Repositório que deve ser utilizado como template inicial pelos grupos da matéria de Arquitetura e Desenho de Software.
+<h1 align="center"> Projeto Mercado Livre </h1>
+<h2 align="center"> 
+<img src="https://user-images.githubusercontent.com/54143767/229196730-36ac8907-5e5f-4753-9500-5c9e78832876.gif"/>
+</h2>
 
-## Introdução
+<h3 align="center"> 2023.1 </h3>
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=PROCESSING&color=GREEN&style=for-the-badge"/>
+</p>
 
-Este repositório traz um template de repo de documentação a ser seguido pelos grupos de arquitetura e desenho de software.
+<p align="center">
+<img src="https://img.shields.io/github/stars/camilafernanda?style=social"/>
+</p>
 
-## Tecnologia
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
 
-A geração do site estático é realizada utilizando o [docsify](https://docsify.js.org/).
+## Índice 
 
-```shell
-"Docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an index.html and deploy it on GitHub Pages."
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Documentação](#documentação)
+* [Clonando o Repositório](#clonando-o-repositório)
+* [Instalação](#instalação)
+* [Equipe](#equipe)
+
+## Descrição do Projeto
+
+:pushpin: `` 
+
+## Documentação
+
+:open_file_folder: **Para mais informações sobre o projeto acesse nossa <a href="https://github.com/alcantaragiubs/2023.1_G1_ProjetoMercadoLivre">documentação</a> ou abra por um servidor web**
+
+## Clonando o repositório
+```bash
+$ git clone https://github.com/alcantaragiubs/2023.1_G1_ProjetoMercadoLivre.git
 ```
+<!-- ### Executando o projeto -->
 
-### Instalando o docsify
+## Instalação
+:page_facing_up: `Para utilização do sistema será necessário: `
 
-Execute o comando:
 
-```shell
-npm i docsify-cli -g
-```
+## Equipe
 
-### Executando localmente
-
-Para iniciar o site localmente, utilize o comando:
-
-```shell
-docsify serve ./docs
-```
+### :computer: ARQUITETURA E DESENVOLVIMENTO DE SOFTWARE :computer:
+| [<img src="https://avatars.githubusercontent.com/u/70165772?v=4" width=50><br><sub>Ana Júlia</sub>](https://github.com/aluzianobriceno) | [<img src="https://avatars.githubusercontent.com/u/83987201?v=4" width=50><br><sub>Bruna</sub>](https://github.com/libruna) | [<img src="https://avatars.githubusercontent.com/u/81342329?v=4" width=50><br><sub>Breno Henrique</sub>](https://github.com/bhsouza) | [<img src="https://avatars.githubusercontent.com/u/71887425?v=4" width=50><br><sub>Daniel</sub>](https://github.com/DanRocha18 ) | [<img src="https://avatars.githubusercontent.com/u/48565496?v=4" width=50><br><sub>Eric</sub>](https://github.com/Eric-chagas ) | [<img src="https://avatars.githubusercontent.com/u/54143767?v=4" width=50><br><sub>Giulia</sub>](https://github.com/alcantaragiubs) | [<img src="https://avatars.githubusercontent.com/u/71887345?v=4" width=50><br><sub>Guilherme</sub>](https://github.com/GuiDib) | [<img src="https://avatars.githubusercontent.com/u/78388335?v=4" width=50><br><sub>Helder</sub>](https://github.com/F1reFinger) | [<img src="https://avatars.githubusercontent.com/u/69825746?v=4" width=50><br><sub>Ingrid</sub>](https://github.com/IngridSCarvalho) | [<img src="https://avatars.githubusercontent.com/u/78378116?v=4" width=50><br><sub>Julio</sub>](https://github.com/Julio-eng) | [<img src="https://avatars.githubusercontent.com/u/88208512?v=4" width=50><br><sub>Wengel</sub>](https://github.com/Wengel-Rodrigues)| 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
