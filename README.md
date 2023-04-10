@@ -30,8 +30,18 @@
 :pushpin: `` 
 
 ## Documentação
+:open_file_folder: **Para mais informações sobre o projeto acesse nossa documentação executando o comando:**
 
-:open_file_folder: **Para mais informações sobre o projeto acesse nossa <a href="https://github.com/alcantaragiubs/2023.1_G1_ProjetoMercadoLivre">documentação</a> ou abra por um servidor web**
+```bash
+$ npm i docsify-cli -g
+```
+
+**Em seguida execute**: 
+
+```bash
+$ docsify serve ./docs
+```
+
 
 ## Clonando o repositório
 ```bash
