@@ -1,26 +1,22 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.1_G1_ProjetoPandora*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+# Projeto Mercado Livre (2023.1)
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0097504  |  Ana Júlia Luziano Briceño |
+| 20/2015984  |  Breno Henrique de Souza |
+| 21/1041105  |  Bruna de Lima Santos |
+| 19/0104821  |  Daniel Rocha Oliveira |
+| 18/0119508  |  Eric Chagas de Oliveira |
+| 18/0121308  |  Giulia Domingues de Alcantara |
+| 19/0108088  |  Guilherme França Dib de Oliveira Bessa |
+| 18/0121847  |  Helder Lourenço de Abreu Marques |
+| 19/0029731  |  Ingrid da Silva Carvalho |
+| 19/0015721  |  Julio Cesar Martins Franca |
+| 19/0118555  |  Wengel Rodrigues Farias |
 
 ## Sobre 
 Contextualize, usando referências, links, e outros materiais como fontes.
