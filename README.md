@@ -1,5 +1,5 @@
 
-<h1 align="center"> Projeto Mercado Livre </h1>
+<h1 align="center"> Projeto Mercado Livre (G1) </h1>
 <h2 align="center"> 
 <img src="https://user-images.githubusercontent.com/54143767/229196730-36ac8907-5e5f-4753-9500-5c9e78832876.gif"/>
 </h2>
@@ -30,7 +30,7 @@
 :pushpin: `` 
 
 ## Documentação
-:open_file_folder: **Para mais informações sobre o projeto acesse nossa documentação executando o comando:**
+:open_file_folder: **Para mais informações sobre o projeto acesse nossa <a href="https://github.com/UnBArqDsw2023-1/2023.1_G1_ProjetoMercadoLivre">documentação</a> executando o comando:**
 
 ```bash
 $ npm i docsify-cli -g
