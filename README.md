@@ -30,7 +30,7 @@
 :pushpin: `` 
 
 ## Documentação
-:open_file_folder: **Para mais informações sobre o projeto acesse nossa <a href="https://github.com/UnBArqDsw2023-1/2023.1_G1_ProjetoMercadoLivre">documentação</a> executando o comando:**
+:open_file_folder: **Para mais informações sobre o projeto acesse nossa <a href="https://unbarqdsw2023-1.github.io/2023.1_G1_ProjetoMercadoLivre/#/">documentação</a> executando o comando:**
 
 ```bash
 $ npm i docsify-cli -g
