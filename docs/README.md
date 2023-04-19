@@ -19,7 +19,7 @@
 | 19/0118555  |  Wengel Rodrigues Farias |
 
 ## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+Mercado Livre: perfil Comprador e fluxos compreendidos, do cadastro na plataforma até visualização/compra/pagamento de produtos.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots em termos de artefatos da Primeira Entrega.
@@ -34,9 +34,9 @@ Adicione 2 ou mais screenshots em termos de artefatos da Terceira Entrega.
 Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
+**Principal(is) Metodologia(s) Adotada(s)**: Scrum, XP, Kanbam, 5W2H, Mapa Mental<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: TypeScript, JavaScript, React, MySQL<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: NestJS, NodeJS, Figma<br>
 **Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
 
 ## Há algo a ser executado?
