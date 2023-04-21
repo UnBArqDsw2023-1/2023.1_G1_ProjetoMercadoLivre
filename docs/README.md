@@ -19,18 +19,18 @@
 | 19/0118555  |  Wengel Rodrigues Farias |
 
 ## Sobre 
-Mercado Livre: perfil Comprador e fluxos compreendidos, do cadastro na plataforma até visualização/compra/pagamento de produtos.
+- Mercado Livre: perfil comprador e fluxos compreendidos - do cadastro na plataforma a visualização/compra/pagamento de produtos.
 
-## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots em termos de artefatos da Primeira Entrega.
+## DSW (Base)
+<img src="../IMG/5W2H.png">
 
-## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
+## DSW (Modelagem)
 Adicione 2 ou mais screenshots em termos de artefatos da Segunda Entrega.
 
-## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
+## DSW (Padrões de Projeto)
 Adicione 2 ou mais screenshots em termos de artefatos da Terceira Entrega.
 
-## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
+## Arquitetura & Reutilização de Software & PROJETO FINAL
 Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
 
 ## Descritivo dos Principais Aspectos Técnicos 
