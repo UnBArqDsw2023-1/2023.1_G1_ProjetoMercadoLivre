@@ -45,7 +45,7 @@ $ docsify serve ./docs
 
 ## Clonando o repositório
 ```bash
-$ git clone https://github.com/alcantaragiubs/2023.1_G1_ProjetoMercadoLivre.git
+$ git clone https://github.com/2023.1_G1_ProjetoMercadoLivre.git
 ```
 <!-- ### Executando o projeto -->
 
