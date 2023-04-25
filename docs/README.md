@@ -27,7 +27,7 @@
 <img src="./IMG/5W2H.png">
 
 ### Escolha da Metodologia - Modelagem BPMN
-<img src="./IMG/diagram - Escolha.svg"> 
+<img src="./IMG/diagram - Metodologia.svg"> 
 
 ## DSW (Modelagem)
 Adicione 2 ou mais screenshots em termos de artefatos da Segunda Entrega.
