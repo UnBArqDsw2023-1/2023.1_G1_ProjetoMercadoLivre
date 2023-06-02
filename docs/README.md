@@ -33,11 +33,11 @@
 
 ### Diagrama Estático - Diagrama de Classes
 
-<img src="./IMG/diagrama-de-classes.svg"> 
+<img src="./IMG/Modelagem/diagrama-classes/diagrama-de-classes.svg"> 
 
 ### Diagrama Dinâmico - Diagrama de Atividades 
 
-<img src="./IMG/Fluxo-Cadastro-Login.png"> 
+<img src="./IMG/Modelagem/diagramasDinamicos/Fluxo-Cadastro-Login.png"> 
 
 ## DSW (Padrões de Projeto)
 Adicione 2 ou mais screenshots em termos de artefatos da Terceira Entrega.
