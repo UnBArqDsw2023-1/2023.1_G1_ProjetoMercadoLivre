@@ -49,11 +49,11 @@ interface FormaDePagamento {
   // Exemplo de uso:
   const pedido = new Pedido();
   const pagamentoCartao = new PagamentoCartaoCredito();
-  const pagamentoPayPal = new PagamentoPix();
+  const pagamentoPix = new PagamentoPix();
   
   pedido.setFormaDePagamento(pagamentoCartao);
   pedido.processarPedido(100.00);
   
-  pedido.setFormaDePagamento(pagamentoPayPal);
+  pedido.setFormaDePagamento(pagamentoPix);
   pedido.processarPedido(50.00);
   
