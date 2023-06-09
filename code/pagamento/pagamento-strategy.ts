@@ -1,6 +1,6 @@
 interface FormaDePagamento {
     processarPagamento(valor: number): void;
-  }
+  } 
   
   class PagamentoCartaoCredito implements FormaDePagamento {
     processarPagamento(valor: number): void {
@@ -22,7 +22,7 @@ interface FormaDePagamento {
       // Lógica para processar o pagamento via debito
     }
   }
-
+ 
   class PagamentoBoleto implements FormaDePagamento {
     processarPagamento(valor: number): void {
       console.log(`Processando pagamento via boleto no valor de ${valor}`);
@@ -30,7 +30,7 @@ interface FormaDePagamento {
     }
   }
   
-  class Pedido {
+  class Carrinho {
     private formaDePagamento: FormaDePagamento;
   
     setFormaDePagamento(formaDePagamento: FormaDePagamento): void {
@@ -47,13 +47,13 @@ interface FormaDePagamento {
   }
   
   // Exemplo de uso:
-  const pedido = new Pedido();
+  const carrinho = new Carrinho();
   const pagamentoCartao = new PagamentoCartaoCredito();
   const pagamentoPix = new PagamentoPix();
   
-  pedido.setFormaDePagamento(pagamentoCartao);
-  pedido.processarPedido(100.00);
+  carrinho.setFormaDePagamento(pagamentoCartao);
+  carrinho.processarPedido(100.00);
   
-  pedido.setFormaDePagamento(pagamentoPix);
-  pedido.processarPedido(50.00);
+  carrinho.setFormaDePagamento(pagamentoPix);
+  carrinho.processarPedido(50.00);
   
