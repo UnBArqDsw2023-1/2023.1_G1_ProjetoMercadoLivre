@@ -33,4 +33,10 @@ class Categoria {
     public setDescricao(descricao: string): void {
         this.descricao = descricao;
     }
+
+    public toString() {
+        return `ID: ${this.getId} \n
+                Nome: ${this.getNome} \n
+                Descrição: ${this.getDescricao}`;
+    }
 }
