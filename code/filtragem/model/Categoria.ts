@@ -1,4 +1,4 @@
-class Categoria {
+export class Categoria {
 
     private id: number;
     private nome: string;
@@ -34,9 +34,7 @@ class Categoria {
         this.descricao = descricao;
     }
 
-    public toString() {
-        return `ID: ${this.getId} \n
-                Nome: ${this.getNome} \n
-                Descrição: ${this.getDescricao}`;
+    public toString(): string {
+        return `ID: ${this.id}, Nome: ${this.nome}, Descrição: ${this.descricao}`;
     }
 }

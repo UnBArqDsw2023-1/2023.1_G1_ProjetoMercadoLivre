@@ -1,11 +1,11 @@
-class Data {
+import { Categoria } from "./model/Categoria"
+export class Data {
 
     private static _instance: Data;
     public categorias: Array<Categoria> = [];
     //public produtos: Array<Produto> = [];
     
-    constructor() {
-    }
+    constructor() {}
 
     public static getInstance(): Data {
         if (!Data._instance) {
