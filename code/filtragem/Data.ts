@@ -1,4 +1,5 @@
 import { Categoria } from "./model/Categoria"
+
 export class Data {
 
     private static _instance: Data;

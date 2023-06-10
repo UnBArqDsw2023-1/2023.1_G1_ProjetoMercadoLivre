@@ -1,6 +1,9 @@
-import CategoriaController from "./controller/CategoriaController";
+import { CategoriaController } from "./controller/CategoriaController";
+
+// testes 
 
 let categoria = new CategoriaController();
 
-categoria.cadastrar(1, "eletronicos", "tecnologia");
+categoria.cadastrar("eletronico", "tecnologia");
+categoria.cadastrar("casa", "mesa e banho");
 categoria.obterTodos();

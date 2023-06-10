@@ -1,15 +1,17 @@
 import { Data } from "../Data"
 import { Categoria } from "../model/Categoria"
 
-export default class CategoriaController {
+export class CategoriaController {
 
     dataBase = Data.getInstance();
 
-    cadastrar(id: number, nome: string, descricao: string): void {
-        const categoria = new Categoria(id, nome, descricao);
+    cadastrar(nome: string, descricao: string): string {
+        let proxID = this.dataBase.categorias.length + 1;
+
+        const categoria = new Categoria(proxID, nome, descricao);
         this.dataBase.categorias.push(categoria);
 
-        console.log("Cadastrado com sucesso!");
+        return "Cadastrado com sucesso!";
     }
 
     obterTodos(): void {
