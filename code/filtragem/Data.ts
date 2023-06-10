@@ -1,10 +1,11 @@
 import { Categoria } from "./model/Categoria"
+import { Produto } from "./model/Produto";
 
 export class Data {
 
     private static _instance: Data;
     public categorias: Array<Categoria> = [];
-    //public produtos: Array<Produto> = [];
+    public produtos: Array<Produto> = [];
     
     constructor() {}
 
