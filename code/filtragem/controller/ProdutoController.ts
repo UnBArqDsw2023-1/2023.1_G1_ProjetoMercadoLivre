@@ -27,32 +27,33 @@ class ProdutoController {
     private produtos: Produto;
   
     constructor() {
-      this.produtos = new Produto();
+      let Id = 0, nome="zero";
+      this.produtos = new Produto(Id, nome);
     }
   
-    cadastrarProduto(id: number, nome: string): string {
+    cadastrar(id: number, nome: string): string {
       const produto = new Produto(id, nome);
       return this.produtos.cadastrar(produto);
     }
   
-    atualizarProduto(id: number, nome: string): string {
+    atualizar(id: number, nome: string): string {
       const produto = new Produto(id, nome);
       return this.produtos.atualizar(produto);
     }
   
-    buscarProdutoPorId(id: number): Produto | undefined {
+    buscarPorId(id: number): Produto | undefined {
       return this.produtos.buscarPorId(id);
     }
   
-    buscarProdutoPorNome(nome: string): Produto[] {
+    buscarPorNome(nome: string): Produto[] {
       return this.produtos.buscarPorNome(nome);
     }
   
-    obterTodosOsProdutos(): Produto[] {
+    obterTodos(): Produto[] {
       return this.produtos.obterTodos();
     }
   
-    removerProduto(id: number): string {
+    remover(id: number): string {
       return this.produtos.remover(id);
     }
   }
