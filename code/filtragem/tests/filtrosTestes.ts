@@ -82,6 +82,7 @@ export class FiltrosTestes {
 
         console.log('\nFiltro de categoria: ------------------------------\n');
         
+        if(resultadoCategoria.length === 0) return false;
         resultadoCategoria.forEach((produto) => {
             if(produto.contemCategoria(produto.getIdsDeCategoria()[0]) === false) return false;
         })
