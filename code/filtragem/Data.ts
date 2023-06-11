@@ -16,6 +16,10 @@ export class Data {
         return Data._instance;
     }
 
+    public getCategorias(): Categoria[] {
+      return this.categorias;
+    }
+
     public getProdutos(): Produto[] {
       return this.produtos;
     }

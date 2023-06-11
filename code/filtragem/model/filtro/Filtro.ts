@@ -1,5 +1,5 @@
-import { Produto } from '../model/Produto';
-import { Data } from "../Data"
+import { Produto } from "../Produto";
+import { Data } from "../../Data";
 
 class Filtro {
   protected dataBase: Data;
@@ -15,4 +15,3 @@ class Filtro {
 }
 
 export { Filtro };
-

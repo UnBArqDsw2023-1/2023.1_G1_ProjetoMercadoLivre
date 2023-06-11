@@ -1,4 +1,4 @@
-import { Produto } from '../model/Produto';
+import { Produto } from '../Produto';
 import { Filtro } from './Filtro';
 
 class FiltroAvaliacao extends Filtro {
