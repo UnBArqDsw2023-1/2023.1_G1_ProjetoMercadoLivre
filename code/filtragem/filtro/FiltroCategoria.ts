@@ -9,8 +9,7 @@ class FiltroCategoria extends Filtro {
 
   filtrar(): Produto[] {
     const produtos = this.dataBase.getProdutos();
-    return produtos.filter((produto) => produto.categoria === this.categoria.getNome());
-  }
+    return produtos.filter((produto) => produto.contemCategoria(this.categoria.getId()));  }
 }
 
 export { FiltroCategoria };
