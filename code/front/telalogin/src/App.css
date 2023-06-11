@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  background-color: #fff159;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header img {
+  width: 134px;
+  height: 34px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 1.75rem 2.5rem;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer span {
+  color: #3483fa;
+}
+
+footer p {
+  color: #626262;
+}
+
+footer b {
+  color: #000;
+}
+
+.loginContent{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.info{
+  max-width: 350px;
+  line-height: 40px;
+}
+
+.info h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.divisor {
+  border-bottom: 1px #d4d3d3 solid;
+  width: 195px;
+}
+
+.info p {
+  font-size: 11px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.info span {
+  font-size: 13px;
+  color: #3483fa;
+}
+
+.report {
+  margin-bottom: 10px;
+}
+
+.buttons{
+  min-width: 220px;
+  display: flex;
+  color: #626262;
+  padding: 15px 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  animation: 300ms;
+}
+
+.buttons:hover {
+  background-color: #dfdfdf;
+}
+
+.buttons img {
+  width: 20px;
+  padding-right: 2px;
+}
+
+.light {
+  opacity: 0.5;
+}
+
+.login {
+  border: 1px #d4d3d3 solid;
+  padding: 40px;
+  width: 400px;
+  border-radius: 5px; 
+  height: 200px;
+}
+
+label {
+  margin-top: 30px;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.submit {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.buttonSubmit{
+  background: #3483fa;
+  padding: 12px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: medium;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+  color: #3483fa;
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid #bbbbbb;
+  padding: 16px 10px;
+  width: 350px;
+  border-radius: 3px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3483fa;
+}
+
+.emailLogado {
+  border: 1px #d4d3d3 solid;
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.emailLogado p {
+  margin-top: -5px;
+  margin-bottom: -25px;
+}
+
+.emailLogado img{
+  width: 40px;
+  height: 40px;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.error-message {
+  font-size: 12px;
+  color: red;
+}

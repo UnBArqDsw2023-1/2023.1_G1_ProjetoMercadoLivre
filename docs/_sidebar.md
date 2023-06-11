@@ -20,6 +20,8 @@
   - [3. Desenho de Software (Padrões de Projeto)](/PadroesDeProjeto/3.PadroesDeProjeto.md)
     - [3.1. Módulo Padrões de Projeto GRASPs](/PadroesDeProjeto/3.1.GRASPs.md)
     - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
+      - [3.2.1 Strategy](/PadroesDeProjeto/3.2.1.Strategy.md)
+      - [3.2.2 Singleton](/PadroesDeProjeto/3.2.2.Singleton.md)
     - [3.3. Módulo Padrões de Projeto Extras](/PadroesDeProjeto/3.3.PadroesExtra.md)
     - [3.4. Participações - Padrões de Projeto](/PadroesDeProjeto/3.4.ParticipacoesPadroes.md)
 
