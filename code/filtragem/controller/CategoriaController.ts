@@ -5,41 +5,54 @@ export class CategoriaController {
 
     dataBase = Data.getInstance();
 
-    cadastrar(nome: string, descricao: string): string {
+    cadastrar(nome: string, descricao: string): void {
         let proxID = this.dataBase.categorias.length + 1;
 
         const categoria = new Categoria(proxID, nome, descricao);
-        this.dataBase.categorias.push(categoria);
-
-        return "Cadastrado com sucesso!";
+        if(!this.dataBase.categorias.findIndex((ctg) => ctg.getNome() == nome)) {
+            this.dataBase.categorias.push(categoria);
+            console.log("Cadastrado com sucesso!");
+            return;
+        }
+        console.log("Essa categoria já existe!");
     }
 
-    atualizar(categoria: Categoria): string {
+    atualizar(categoria: Categoria): void {
         const indexCategoria = this.dataBase.categorias.findIndex((ctg) => ctg.getId() == categoria.getId())
         if(indexCategoria >= 0) {
             this.dataBase.categorias[indexCategoria] = categoria;
-            return "Categoria atualizada com sucesso!"
+            console.log("Categoria atualizada com sucesso!");
+            return;
         }
-        return "Esta categoria não existe!";
+        console.log("Esta categoria não existe!");
     }
 
-    buscarPorID(id: number): Categoria | string {
+    buscarPorID(id: number): void {
         const categoriaEncontrada = this.dataBase.categorias.find((categoria) => categoria.getId() == id);
-        return categoriaEncontrada ? categoriaEncontrada : "Esta categoria não existe!" 
+        if(categoriaEncontrada) {
+            console.log(categoriaEncontrada.toString());
+            return;
+        }
+        console.log("Esta categoria não existe!"); 
     }
 
-    buscarPorNome(nome: string): Categoria | string {
+    buscarPorNome(nome: string): void {
         const categoriaEncontrada = this.dataBase.categorias.find((categoria) => categoria.getNome() == nome);
-        return categoriaEncontrada ? categoriaEncontrada : "Esta categoria não existe!"
+        if(categoriaEncontrada) {
+            console.log(categoriaEncontrada.toString());
+            return;
+        }
+        console.log("Esta categoria não existe!"); 
     }
 
-    remover(id: number): string {
+    remover(id: number): void {
         const indexCategoria = this.dataBase.categorias.findIndex((categoria) => categoria.getId() == id)
         if(indexCategoria >= 0){
             this.dataBase.categorias.splice(indexCategoria, 1);
-            return "Categoria removida com sucesso!";
+            console.log("Categoria removida com sucesso!");
+            return;
         }
-        return "Esta categoria não existe!";
+        console.log("Esta categoria não existe!");
     }
 
     obterTodos(): void {
