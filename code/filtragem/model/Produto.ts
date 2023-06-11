@@ -31,8 +31,9 @@
      protected percentualDesconto: number
      protected aceitaParcelamento: boolean
      protected estoque: number
+     protected idsDeCategoria: number[]
 
-     constructor (id: number, nome: string, descricao: string, preco: number, condicaoProduto: boolean, avaliacao: number, marca: string, disponibilidade: boolean, percentualDesconto: number, aceitaParcelamento: boolean, estoque: number) {
+     constructor (id: number, nome: string, descricao: string, preco: number, condicaoProduto: boolean, avaliacao: number, marca: string, disponibilidade: boolean, percentualDesconto: number, aceitaParcelamento: boolean, estoque: number, idsDeCategoria: number[]) {
          this.id = id;
          this.nome = nome;
          this.descricao = descricao;
@@ -44,6 +45,15 @@
          this.percentualDesconto = percentualDesconto;
          this.aceitaParcelamento = aceitaParcelamento;
          this.estoque = estoque;
+         this.idsDeCategoria = idsDeCategoria;
+     }
+
+     public getIdsDeCategoria(): number[] {
+        return this.idsDeCategoria;
+     }
+
+     public contemCategoria(idCategoria: number): boolean {
+        return this.idsDeCategoria.includes(idCategoria) ? true : false;
      }
 
     //  public setProduto(produto: Produto): void{
