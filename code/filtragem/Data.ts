@@ -15,4 +15,8 @@ export class Data {
         }
         return Data._instance;
     }
+
+    public getProdutos(): Produto[] {
+      return this.produtos;
+    }
 }

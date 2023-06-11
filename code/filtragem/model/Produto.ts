@@ -18,26 +18,27 @@
      throw new Error("Method not implemented.")
    }
 
-     private id: number
-     private nome: string
-     private descricao: string
-     private preco: number
-     private tamanho: number
-     private peso: number
-     private condicaoProduto: boolean
-     private avaliacao: number
-     private marca: string
-     private disponibilidade: boolean
-     private percentualDesconto: number
-     private aceitaParcelamento: boolean
-     private estoque: number
+     protected id: number
+     protected nome: string
+     protected descricao: string
+     protected preco: number
+     protected tamanho: number
+     protected peso: number
+     protected condicaoProduto: boolean
+     protected avaliacao: number
+     protected marca: string
+     protected disponibilidade: boolean
+     protected percentualDesconto: number
+     protected aceitaParcelamento: boolean
+     protected estoque: number
 
-     constructor (id: number, nome: string, descricao: string, preco: number, condicaoProduto: boolean, marca: string, disponibilidade: boolean, percentualDesconto: number, aceitaParcelamento: boolean, estoque: number) {
+     constructor (id: number, nome: string, descricao: string, preco: number, condicaoProduto: boolean, avaliacao: number, marca: string, disponibilidade: boolean, percentualDesconto: number, aceitaParcelamento: boolean, estoque: number) {
          this.id = id;
          this.nome = nome;
          this.descricao = descricao;
          this.preco = preco;
          this.condicaoProduto = condicaoProduto;
+         this.avaliacao = avaliacao;
          this.marca = marca;
          this.disponibilidade = disponibilidade;
          this.percentualDesconto = percentualDesconto;
@@ -73,17 +74,25 @@
     //      this.descricao = descricao;
     //  }
 
-    //  public getPreco(): number {
-    //      return this.preco;
-    //  }
+      public getPreco(): number {
+          return this.preco;
+      }
 
     //  public setPreco(preco: number): void {
     //      this.preco = preco;
     //  }
+
+    public getAvaliacao(): number {
+      return this.avaliacao;
+    }
+
+//  public setAvaliacao(avaliacao: number): void {
+//      this.avaliacao = avaliacao;
+//  }
     
-    //  public getMarca(): string {
-    //      return this.marca;
-    //  }
+      public getMarca(): string {
+          return this.marca;
+      }
 
     //  public setMarca(marca: string): void {
     //      this.marca = marca;
@@ -105,9 +114,9 @@
     //      this.disponibilidade = disponibilidade;
     //  }
 
-    // public getPercentualDesconto(): number {
-    //      return this.percentualDesconto;
-    //  }
+     public getPercentualDesconto(): number {
+          return this.percentualDesconto;
+      }
 
     //  public setPercentualDesconto(percentualDesconto: number): void {
     //      this.percentualDesconto = percentualDesconto;

@@ -6,8 +6,9 @@ class FiltroAvaliacao extends Filtro {
     super();
   }
 
-  filtrar(produtos: Produto[]): Produto[] {
-    return produtos.filter((produto) => produto.avaliacao >= this.avaliacaoMinima);
+  filtrar(): Produto[] {
+    const produtos = this.dataBase.getProdutos();
+    return produtos.filter((produto) => produto.getAvaliacao() >= this.avaliacaoMinima);
   }
 }
 
