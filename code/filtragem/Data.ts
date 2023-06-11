@@ -19,4 +19,8 @@ export class Data {
     public getProdutos(): Produto[] {
       return this.produtos;
     }
+
+    public getCategorias(): Categoria[] {
+        return this.categorias;
+    }
 }

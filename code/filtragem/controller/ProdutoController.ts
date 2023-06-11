@@ -23,9 +23,10 @@ import { Produto } from "../model/Produto";
 
 // }
 
-class ProdutoController {
+export class ProdutoController {
     private produtos: Produto;
-  
+    dataBase = Data.getInstance(); // Para testes de filtro
+    
     constructor() {
       let Id = 0, nome="zero";
       this.produtos = new Produto(Id, nome);
@@ -56,4 +57,20 @@ class ProdutoController {
     remover(id: number): string {
       return this.produtos.remover(id);
     }
+
+    // Para testes de filtro ---->
+
+    cadastrarProdutoTeste(produto: Produto): string {
+        this.dataBase.produtos.push(produto);
+        const response = "Produto inserido";
+        console.log(response);
+        return response;
+    }
+
+    getalltest(): Produto[] {
+        const listaDeProdutos = this.dataBase.getProdutos();
+        return listaDeProdutos;
+    }
+
+    // Fim testes de filtro ----->
   }
