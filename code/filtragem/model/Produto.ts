@@ -16,7 +16,6 @@ export class Produto {
   private aceitaParcelamento: boolean
   private estoque: number
   private categoria: Categoria;
-  private idsDeCategoria!: number[];
 
   constructor (id: number, nome: string, descricao: string, preco: number, tamanho: number, peso: number, condicaoProduto: boolean, avaliacao: number, marca: string, disponibilidade: boolean, percentualDesconto: number, aceitaParcelamento: boolean, estoque: number, categoria: Categoria) {
     this.id = id;
@@ -155,14 +154,6 @@ export class Produto {
 
   public setCategoria(categoria: Categoria) {
     this.categoria = categoria;
-  } 
-
-  public getIdsDeCategoria(): number[] {
-    return this.idsDeCategoria;
-  }
-
-  public contemCategoria(idCategoria: number): boolean {
-    return this.idsDeCategoria.includes(idCategoria) ? true : false;
   } 
 
   public toString(): string {

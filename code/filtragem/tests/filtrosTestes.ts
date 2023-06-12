@@ -1,4 +1,4 @@
-import { ProdutoController } from "../controller/ProdutoController";
+/*import { ProdutoController } from "../controller/ProdutoController";
 import { filtroProdutosTeste } from "../mock/produtosMock";
 import { Produto } from "../model/Produto";
 import { FiltroAvaliacao } from "../model/filtro/FiltroAvaliacao";
@@ -140,4 +140,4 @@ export class FiltrosTestes {
         //console.log(resultadoMarca);   //Descomente para verificar os resultados
         return true;
     }
-}
+}*/

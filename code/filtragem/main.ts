@@ -1,11 +1,16 @@
 import { ProdutoController } from "./controller/ProdutoController";
 import { CategoriaController } from "./controller/CategoriaController";
 import { Categoria } from "./model/Categoria";
+import { Data } from "./Data"
 import * as readline from 'readline-sync';
 
 let categoria = new CategoriaController();
 let produto = new ProdutoController();
 
+let db = Data.getInstance();
+let cat1 = new Categoria(21, "Diversos", "Descricao generica");
+db.categorias.push(cat1);
+console.log("Categorias iniciais: ", db.categorias);
 // Dados pre-cadastrados
 categoria.cadastrar("Casa", "Moveis e decoracao");
 categoria.cadastrar("Veiculos", "Carros, Motos e Outros");
@@ -13,6 +18,7 @@ categoria.cadastrar("Veiculos", "Carros, Motos e Outros");
 // categoria.atualizar(new Categoria(2, "Saude", "Para sua vida diaria"));
 
 let ctg = new Categoria(3, "Ferramentas", "Descubra as melhores ferramentas para a sua obra");
+db.categorias.push(ctg);
 
 produto.cadastrar("Sofa", "Sofa De Canto 5 Lugares Cinza", 1000, 150, 200, true, 4, "Qtar", true, 10, true, 10, ctg);
 produto.cadastrar("Tapete", "Tapete Mega Promocao", 100, 200, 4, true, 5, "show", true, 15, true, 23, ctg);
@@ -33,7 +39,6 @@ while(loop) {
             break;
         case '3':
             let avaliacao = readline.question("Digite a avaliacao [1-5]: ");
-            console.log("@@@ Avaliacao: " + avaliacao);
             produto.obterTodosAvaliacao(parseInt(avaliacao));
             break;
         case '4':
