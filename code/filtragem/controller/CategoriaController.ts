@@ -9,12 +9,14 @@ export class CategoriaController {
         let proxID = this.dataBase.categorias.length + 1;
 
         const categoria = new Categoria(proxID, nome, descricao);
-        if(!this.dataBase.categorias.findIndex((ctg) => ctg.getNome() == nome)) {
+        if(this.dataBase.categorias.filter((ctg) => ctg.getNome() === nome).length > 0){
+            console.log("Essa categoria já existe!");
+            return;
+        } else{
             this.dataBase.categorias.push(categoria);
             console.log("Cadastrado com sucesso!");
             return;
         }
-        console.log("Essa categoria já existe!");
     }
 
     atualizar(categoria: Categoria): void {

@@ -16,11 +16,11 @@ export class Data {
         return Data._instance;
     }
 
-    public getProdutos(): Produto[] {
-      return this.produtos;
+    public getCategorias(): Categoria[] {
+      return this.categorias;
     }
 
-    public getCategorias(): Categoria[] {
-        return this.categorias;
+    public getProdutos(): Produto[] {
+      return this.produtos;
     }
 }

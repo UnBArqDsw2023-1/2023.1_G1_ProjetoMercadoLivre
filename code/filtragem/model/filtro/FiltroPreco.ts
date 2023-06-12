@@ -1,6 +1,5 @@
-import { Produto } from '../model/Produto';
+import { Produto } from '../Produto';
 import { Filtro } from './Filtro';
-import { Data } from '../Data';
 
 class FiltroPreco extends Filtro {
   constructor(private precoMinimo: number, private precoMaximo: number) {
@@ -8,8 +7,7 @@ class FiltroPreco extends Filtro {
   }
 
   filtrar(): Produto[] {
-    const dataBase = Data.getInstance();
-    const produtos = dataBase.getProdutos();
+    const produtos = this.dataBase.getProdutos();
     return produtos.filter((produto) => produto.getPreco() >= this.precoMinimo && produto.getPreco() <= this.precoMaximo);
   }
 }
