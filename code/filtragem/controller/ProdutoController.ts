@@ -19,9 +19,14 @@ export class ProdutoController {
     console.log("Cadastrado com sucesso!");
   }
   
-  atualizar(id: number, nome: string): void {
-   // const produto = new Produto(id, nome);
-    //  return this.produtos.atualizar(produto);
+  atualizar(produto: Produto): void {
+    const indexProduto = this.dataBase.produtos.findIndex((p) => p.getId() == produto.getId())
+    if(indexProduto >= 0) {
+        this.dataBase.produtos[indexProduto] = produto;
+        console.log("Produto atualizado com sucesso!");
+        return;
+    }
+    console.log("Este produto não existe!");
   }
 
   buscarPorID(id: number): void {
@@ -68,6 +73,7 @@ export class ProdutoController {
 
   obterTodosCategoria(categoria: string): void {
     let produtosFiltrados: Produto[] = new FiltroCategoria(categoria).filtrar();
+    console.log("produtosFiltrados(ProdutoController): ", produtosFiltrados);2
 
     produtosFiltrados.forEach((produto) => {
       console.log(produto.toString());
@@ -75,7 +81,7 @@ export class ProdutoController {
   }
 
   obterTodosAvaliacao(avaliacaoMinima: number): void {
-    let produtosFiltrados: Produto[] = new FiltroAvaliacao(4).filtrar();
+    let produtosFiltrados: Produto[] = new FiltroAvaliacao(avaliacaoMinima).filtrar();
 
     produtosFiltrados.forEach((produto) => {
       console.log(produto.toString());
