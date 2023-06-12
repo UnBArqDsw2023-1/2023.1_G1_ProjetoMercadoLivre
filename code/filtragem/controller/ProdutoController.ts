@@ -32,7 +32,7 @@ export class ProdutoController {
   buscarPorID(id: number): void {
     const produtoEncontrado = this.dataBase.produtos.find((produto) => produto.getId() == id);
     if(produtoEncontrado) {
-        console.log(produtoEncontrado.toString());
+        console.log(produtoEncontrado);
         return;
     }
     console.log("Esta produto não existe!"); 
@@ -41,7 +41,7 @@ export class ProdutoController {
   buscarPorNome(nome: string): void {
     const produtoEncontrada = this.dataBase.produtos.find((categoria) => categoria.getNome() == nome);
     if(produtoEncontrada) {
-        console.log(produtoEncontrada.toString());
+        console.log(produtoEncontrada);
         return;
     }
     console.log("Este produto não existe!"); 
@@ -59,48 +59,57 @@ export class ProdutoController {
 
   obterTodos(): void {
     this.dataBase.produtos.forEach((produto) => {
-      console.log(produto.toString());
+      console.log(produto);
     });
   }
 
   obterTodosMarca(marca: string): void {
-      let produtosFiltrados: Produto[] = new FiltroMarca(marca).filtrar();
+    let produtosFiltrados: Produto[] = new FiltroMarca(marca).filtrar();
   
-      produtosFiltrados.forEach((produto) => {
-        console.log(produto.toString());
-      });
+    if(produtosFiltrados.length > 0) {
+      console.log(produtosFiltrados);
+      return;
+    }
+    console.log("Nao existem produtos para esse filtro!");
   }
 
   obterTodosCategoria(categoria: string): void {
     let produtosFiltrados: Produto[] = new FiltroCategoria(categoria).filtrar();
-    console.log("produtosFiltrados(ProdutoController): ", produtosFiltrados);2
 
-    produtosFiltrados.forEach((produto) => {
-      console.log(produto.toString());
-    });
+    if(produtosFiltrados.length > 0) {
+      console.log(produtosFiltrados);
+      return;
+    }
+    console.log("Nao existem produtos para esse filtro!");
   }
 
   obterTodosAvaliacao(avaliacaoMinima: number): void {
     let produtosFiltrados: Produto[] = new FiltroAvaliacao(avaliacaoMinima).filtrar();
 
-    produtosFiltrados.forEach((produto) => {
-      console.log(produto.toString());
-    });
+    if(produtosFiltrados.length > 0) {
+      console.log(produtosFiltrados);
+      return;
+    }
+    console.log("Nao existem produtos para esse filtro!");
   }
 
   obterTodosDesconto(descontoMinimo: number): void {
     let produtosFiltrados: Produto[] = new FiltroDesconto(descontoMinimo).filtrar();
     
-    produtosFiltrados.forEach((produto) => {
-      console.log(produto.toString());
-    });
+    if(produtosFiltrados.length > 0) {
+      console.log(produtosFiltrados);
+      return;
+    }
+    console.log("Nao existem produtos para esse filtro!");
   }
 
   obterTodosPreco(precoMinimo: number, precoMaximo: number): void {
     let produtosFiltrados: Produto[] = new FiltroPreco(precoMinimo, precoMaximo).filtrar();
 
-    produtosFiltrados.forEach((produto) => {
-      console.log(produto.toString());
-    });
+    if(produtosFiltrados.length > 0) {
+      console.log(produtosFiltrados);
+      return;
+    }
+    console.log("Nao existem produtos para esse filtro!");
   }
 }

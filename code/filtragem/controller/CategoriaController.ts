@@ -32,7 +32,7 @@ export class CategoriaController {
     buscarPorID(id: number): void {
         const categoriaEncontrada = this.dataBase.categorias.find((categoria) => categoria.getId() == id);
         if(categoriaEncontrada) {
-            console.log(categoriaEncontrada.toString());
+            console.log(categoriaEncontrada);
             return;
         }
         console.log("Esta categoria não existe!"); 
@@ -41,7 +41,7 @@ export class CategoriaController {
     buscarPorNome(nome: string): void {
         const categoriaEncontrada = this.dataBase.categorias.find((categoria) => categoria.getNome() == nome);
         if(categoriaEncontrada) {
-            console.log(categoriaEncontrada.toString());
+            console.log(categoriaEncontrada);
             return;
         }
         console.log("Esta categoria não existe!"); 
@@ -59,7 +59,7 @@ export class CategoriaController {
 
     obterTodos(): void {
         this.dataBase.categorias.forEach((categoria) => {
-            console.log(categoria.toString());
+            console.log(categoria);
         });
     }
 }

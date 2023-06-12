@@ -8,7 +8,7 @@ class FiltroMarca extends Filtro {
 
 filtrar(): Produto[] {
     const produtos = this.dataBase.getProdutos();
-    return produtos.filter((produto) => produto.getMarca() === this.marca);
+    return produtos.filter((produto) => produto.getMarca().toLowerCase() === this.marca.toLowerCase());
   }
 }
 

@@ -22,6 +22,7 @@
       - [3.1.3 GRASP Polimorfismo](/PadroesDeProjeto/3.1.1.Polimorfismo.md)
       - [3.1.4 GRASP Alta Coesão](/PadroesDeProjeto/3.1.2.AltaCoesao.md)
       - [3.1.5 GRASP Baixo Acoplamento](/PadroesDeProjeto/3.1.3.BaixoAcoplamento.md)
+      - [3.1.6 GRASP Controller](/PadroesDeProjeto/3.1.6.Controller.md)
     - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
       - [3.2.1 Strategy](/PadroesDeProjeto/3.2.1.Strategy.md)
       - [3.2.2 Strategy e Singleton](/PadroesDeProjeto/3.2.2.Strategy-Singleton.md)
