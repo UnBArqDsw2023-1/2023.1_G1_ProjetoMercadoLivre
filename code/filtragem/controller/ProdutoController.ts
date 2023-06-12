@@ -73,7 +73,7 @@ export class ProdutoController {
 
   obterTodosCategoria(categoria: string): void {
     let produtosFiltrados: Produto[] = new FiltroCategoria(categoria).filtrar();
-    console.log("produtosFiltrados(ProdutoController): ", produtosFiltrados);2
+    console.log("produtosFiltrados(ProdutoController): ", produtosFiltrados);
 
     produtosFiltrados.forEach((produto) => {
       console.log(produto.toString());
