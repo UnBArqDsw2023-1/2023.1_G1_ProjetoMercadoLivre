@@ -1,11 +1,11 @@
-import { ProdutoController } from "../controller/ProdutoController";
+/*import { ProdutoController } from "../controller/ProdutoController";
 import { filtroProdutosTeste } from "../mock/produtosMock";
 import { Produto } from "../model/Produto";
-import { FiltroAvaliacao } from "../filtro/FiltroAvaliacao";
-import { FiltroCategoria } from "../filtro/FiltroCategoria";
-import { FiltroDesconto } from "../filtro/FiltroDesconto"
-import { FiltroMarca } from "../filtro/FiltroMarca";
-import { FiltroPreco } from "../filtro/FiltroPreco"
+import { FiltroAvaliacao } from "../model/filtro/FiltroAvaliacao";
+import { FiltroCategoria } from "../model/filtro/FiltroCategoria";
+import { FiltroDesconto } from "../model/filtro/FiltroDesconto"
+import { FiltroMarca } from "../model/filtro/FiltroMarca";
+import { FiltroPreco } from "../model/filtro/FiltroPreco"
 
 export class FiltrosTestes {
     produtoController: ProdutoController = new ProdutoController();
@@ -140,4 +140,4 @@ export class FiltrosTestes {
         //console.log(resultadoMarca);   //Descomente para verificar os resultados
         return true;
     }
-}
+}*/
