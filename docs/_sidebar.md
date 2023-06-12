@@ -19,6 +19,9 @@
 - **Padrões de Projeto**
   - [3. Desenho de Software (Padrões de Projeto)](/PadroesDeProjeto/3.PadroesDeProjeto.md)
     - [3.1. Módulo Padrões de Projeto GRASPs](/PadroesDeProjeto/3.1.GRASPs.md)
+      - [3.1.3 GRASP Polimorfismo](/PadroesDeProjeto/3.1.1.Polimorfismo.md)
+      - [3.1.4 GRASP Alta Coesão](/PadroesDeProjeto/3.1.2.AltaCoesao.md)
+      - [3.1.5 GRASP Baixo Acoplamento](/PadroesDeProjeto/3.1.3.BaixoAcoplamento.md)
     - [3.2. Módulo Padrões de Projeto GoFs](/PadroesDeProjeto/3.2.GoFs.md)
       - [3.2.1 Strategy](/PadroesDeProjeto/3.2.1.Strategy.md)
       - [3.2.2 Singleton](/PadroesDeProjeto/3.2.2.Singleton.md)

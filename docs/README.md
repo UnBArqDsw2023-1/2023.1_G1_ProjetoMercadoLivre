@@ -40,7 +40,15 @@
 <img src="./IMG/Modelagem/diagramasDinamicos/Fluxo-Cadastro-Login.png"> 
 
 ## DSW (Padrões de Projeto)
-Adicione 2 ou mais screenshots em termos de artefatos da Terceira Entrega.
+
+### Padrão GRASP - Alta Coesão 
+<img src="./IMG/Padrões/grasp/altacoesao.png"> 
+
+### Padrão GoF - Strategy
+<img src="./IMG/Padrões/gof/PadraoGOF-Strategy-5.0.png"> 
+
+### Padrão Emergente - React Component
+<img src="./IMG/Padrões/emergente/Padrao-ReactComponent.png"> 
 
 ## Arquitetura & Reutilização de Software & PROJETO FINAL
 Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
