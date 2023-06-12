@@ -157,6 +157,6 @@ export class Produto {
   } 
 
   public toString(): string {
-    return `ID: ${this.id}, Nome: ${this.nome}, Descrição: ${this.descricao}, Preço: ${this.preco}, Tamanho: ${this.tamanho}, Peso: ${this.peso}, Condição: ${this.condicaoProduto}, Avaliação: ${this.avaliacao}, Marca: ${this.marca}, Disponibilidade: ${this.disponibilidade}, Desconto: ${this.percentualDesconto}, Parcelamento: ${this.aceitaParcelamento}, Estoque: ${this.estoque}, Categoria: ${this.categoria.getNome()}`;
+    return `ID: ${this.id}, Nome: ${this.nome}, Descrição: ${this.descricao}, Preço: ${this.preco}, Tamanho: ${this.tamanho}, Peso: ${this.peso}, Condição: ${this.condicaoProduto}, Avaliação: ${this.avaliacao}, Marca: ${this.marca}, Disponibilidade: ${this.disponibilidade}, Desconto: ${this.percentualDesconto}, Parcelamento: ${this.aceitaParcelamento}, Estoque: ${this.estoque}, Categoria: ${this.categoria.getNome()} |`;
   }
 }
