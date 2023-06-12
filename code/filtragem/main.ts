@@ -12,9 +12,9 @@ categoria.dataBase.categorias.push(new Categoria(1, "Casa", "Moveis e decoracao"
 categoria.dataBase.categorias.push(new Categoria(2, "Veiculos", "Carros, Motos e Outros"));
 categoria.dataBase.categorias.push(new Categoria(3, "Ferramentas", "Descubra as melhores ferramentas para a sua obra"));
 
-produto.dataBase.produtos.push(new Produto(1, "Sofa", "Sofa De Canto 5 Lugares Cinza", 1000, 150, 200, true, 4, "Qtar", true, 10, true, 10, categoria.dataBase.categorias[0]));
-produto.dataBase.produtos.push(new Produto(2, "Sofa Retratil", "Sofa de 2 Lugares Azul Escuro", 850, 110, 172, true, 5, "QTAR", true, 5, true, 5, categoria.dataBase.categorias[0]));
-produto.dataBase.produtos.push(new Produto(3, "Tapete", "Tapete Mega Promocao", 100, 200, 4, true, 5, "show", true, 15, true, 23, categoria.dataBase.categorias[0]));
+produto.dataBase.produtos.push(new Produto(1, "Sofa", "Sofa De Canto 5 Lugares Cinza", 1000, 150, 200, true, 3, "Qtar", true, 10, true, 10, categoria.dataBase.categorias[0]));
+produto.dataBase.produtos.push(new Produto(2, "Sofa Retratil", "Sofa de 2 Lugares Azul Escuro", 850, 110, 172, true, 5, "QTAR", true, 3, true, 5, categoria.dataBase.categorias[0]));
+produto.dataBase.produtos.push(new Produto(3, "Tapete", "Tapete Mega Promocao", 100, 200, 4, true, 2, "show", true, 15, true, 23, categoria.dataBase.categorias[0]));
 produto.dataBase.produtos.push(new Produto(4, "Onix", "Onix Roxo", 70000, 460, 1345, false, 5, "Chevrolet", true, 0, true, 1, categoria.dataBase.categorias[1]));
 
 let loop = true;
